@@ -65,17 +65,21 @@ width: 300px;
 }
 
 .second-block input {
+float: left;
+font-size: 14px;
 margin-top: 10px;
-height: 20px;
+height: 26px;
 width: 250px;
 border: none;
 border-bottom: 2px solid black;
 margin-left: 40px;
-margin-bottom: 5px;
+margin-bottom: 8px;
+color: #cccccc;
+font-style: italic;
 }
 
-.second-block input:nth-last-child(1) {
-margin-bottom: 30px;
+.second-block input:hover {
+border-bottom: 2px solid #09ac01;
 }
 
 .icon::after {
@@ -86,5 +90,18 @@ width: 15px;
 height: 15px;
 position: absolute;
 background: url("../img/pr.png") no-repeat;
-left: 320px;
+left: 390px;
+bottom: 600px;
+}
+
+.icon::before {
+content: "";
+position: absolute;
+display: block;
+width: 15px;
+height: 15px;
+position: absolute;
+background: url("../img/ag.png") no-repeat;
+left: 410px;
+bottom: 600px;
 }
