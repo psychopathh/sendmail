@@ -1,4 +1,72 @@
 body {
 font-size: 16px;
 font-family: 'Noto Sans', sans-serif;
+margin: 0;
+}
+
+.clearfix:after {
+content: "";
+display: block;
+clear: both;
+}
+
+.wrapper {
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 0;
+margin-left: 40px;
+background: #444349 url("../img/bg.png") no-repeat;
+width: 1880px;
+min-height: 1080px;
+}
+
+h2 {
+color: #76757a;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 12px;
+margin: 0;
+border-bottom: 1px solid #444349;
+}
+
+.blocks {
+width: 860px;
+}
+
+.first-block {
+float: left;
+width: 860px;
+min-height: 150px;
+background-color: #ffffff;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+.first-block p {
+margin-top: 15px;
+margin-left: 12px;
+margin-right: 45px;
+}
+
+.second-block {
+float: left;
+width: 860px;
+min-height: 180px;
+background-color: #ffffff;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+.inputs {
+width: 300px;
+}
+
+.second-block input {
+margin-top: 10px;
+height: 20px;
+width: 250px;
+border: none;
+border-bottom: 2px solid black;
+margin-left: 40px;
+margin-bottom: 5px;
 }
